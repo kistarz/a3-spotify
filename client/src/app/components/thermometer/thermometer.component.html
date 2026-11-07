@@ -4,7 +4,7 @@
     <div class="progress-bar" role="progressbar"
       [style.background-color] = "popularity.color"
       [style.width.%]="popularity.percent * 100">
-      <span class="progress-bar-text">???: ???</span>
+      <span class="progress-bar-text">{{label}}: {{popularity.percentageString}}</span>
     </div>
   </div>
 }
